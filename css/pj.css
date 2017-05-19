@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/body.jpg");
+
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Play', sans-serif;
+}
+
+footer {
+    color: white;
+    height: 50px;
+}
+
+footer div {
+    height: inherit;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin: 10px;
+}
+
+.social-icons i {
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+
+a.facebook {
+    color: #3b5998;
+}
+
+a.vk {
+    color: #45668e;
+}
+
+a.soundcloud {
+    color: #ff3300;
+}
+
+a.youtube {
+    color: #cd201f;
+}
