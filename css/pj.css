@@ -20,6 +20,9 @@ body {
 #diskBuy {
     max-width: 400px;
     margin: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 #diskBuy a > img {
