@@ -8,6 +8,15 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+.last-disk {
+    padding-top: 100px;
+}
+
+.last-disk img {
+    width: 100%;
+    box-shadow: 0 0 20px 20px rgba(255, 255, 255, 1);
+}
+
 footer {
     color: white;
     height: 50px;
