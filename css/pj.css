@@ -17,6 +17,20 @@ body {
     box-shadow: 0 0 20px 20px rgba(255, 255, 255, 1);
 }
 
+#diskBuy {
+    max-width: 400px;
+    margin: auto;
+}
+
+#diskBuy a > img {
+    max-width: 130px;
+}
+
+#diskBuy img.modal-img {
+    max-width: 300px;
+    padding-bottom: 20px
+}
+
 footer {
     color: white;
     height: 50px;
