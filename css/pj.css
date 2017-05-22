@@ -29,6 +29,12 @@ body {
     max-width: 130px;
 }
 
+#diskBuy a > p {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #diskBuy img.modal-img {
     max-width: 300px;
     padding-bottom: 20px
