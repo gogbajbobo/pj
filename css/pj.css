@@ -49,6 +49,10 @@ div.bottom-space {
     padding-bottom: 50px;
 }
 
+.row img {
+    width: 100%;
+}
+
 .background-gray {
     background-color: var(--background-gray);
     color: white;
