@@ -2,6 +2,7 @@
     --navbar-background-color: rgba(0,0,0,0.5);
     --navbar-li-background-color: rgba(0,0,0,0.75);
     --navbar-li-hover-background-color: rgba(0,0,0,0.25);
+    --background-gray: rgba(0,0,0,0.75);
 }
 
 body {
@@ -46,6 +47,12 @@ div.bottom-space {
 .row.with-paddings {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.background-gray {
+    background-color: var(--background-gray);
+    color: white;
+    font-size: 16px;
 }
 
 .last-disk {
