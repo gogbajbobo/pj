@@ -8,6 +8,11 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+.navbar-brand > img {
+    max-height: 40px;
+    margin-top: -10px;
+}
+
 .last-disk {
     padding-top: 100px;
 }
