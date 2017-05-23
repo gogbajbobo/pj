@@ -5,12 +5,12 @@
 $(document).ready(function() {
 
     scrollToSection();
+    spyForScrollSpy();
     closeNavbarOnClick();
 
 });
 
 function scrollToSection() {
-// Прокрутка к выбранному разделу
 
     $(".navbar a, footer a[href='#pj-page']").on('click', function(event) {
 
@@ -27,6 +27,19 @@ function scrollToSection() {
             });
 
         }
+
+    });
+
+}
+
+function spyForScrollSpy() {
+
+    $('body').on('activate.bs.scrollspy', function () {
+
+        let navbarMenu = $('#menu-navbar');
+        let activeMenuItem = navbarMenu.children('li.active');
+        let activeMenuText = activeMenuItem.children('a').text();
+        $('#infotext-navbar').text(activeMenuText);
 
     });
 
