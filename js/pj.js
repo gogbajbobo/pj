@@ -5,6 +5,7 @@
 $(document).ready(function() {
 
     scrollToSection();
+    closeNavbarOnClick();
 
 });
 
@@ -31,3 +32,10 @@ function scrollToSection() {
 
 }
 
+function closeNavbarOnClick() {
+
+    $('.nav a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+}
