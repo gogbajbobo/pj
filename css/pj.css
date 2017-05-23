@@ -14,6 +14,14 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+div.space {
+    padding: 250px;
+}
+
+div.bottom-space {
+    padding: 150px;
+}
+
 .navbar-brand > img {
     max-height: 40px;
     margin-top: -10px;
